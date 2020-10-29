@@ -1,0 +1,33 @@
+.text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-h1{
+    color: black;
+    font-size: 2vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ksdeMS{
+    box-shadow: none;
+}
+
+.div-text{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 1.5vw;
+
+}

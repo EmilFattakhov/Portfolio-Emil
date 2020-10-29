@@ -1,0 +1,35 @@
+.contact-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form-container h1{
+    font-size: 3vw;
+}
+
+.contact-form input {
+    border: none;
+    width: 10vw;
+    background-color: #F4AC32;
+    border-bottom: 1px solid black;
+}
+
+.contact-form input:focus {
+    transform: scale(1.4);
+    outline: none;
+    transition: all 0,3s;
+    border: 1px solid black;
+    background-color: #F4AC32;
+}
+
+.contact-form-sumbit input{
+    margin-top: 2vh;
+    color: white;
+    background-color: black;
+    font-size: 1vw;
+}
+.contact-form-sumbit input:hover{
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
